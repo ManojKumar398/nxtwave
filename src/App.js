@@ -20,10 +20,10 @@ function App() {
     <GlobalStyle />
     
     <Routes>
-      <Route path='/nxtwave-assignment' element={<Home />}/>
-      <Route path='/nxtwave-assignment/add' element={<Add />}/>
-      <Route path='/nxtwave-assignment/user' element={<User />}/>
-      <Route path='/nxtwave-assignment/request' element={<Req />}/>
+      <Route path='/' element={<Home />}/>
+      <Route path='/add' element={<Add />}/>
+      <Route path='/user' element={<User />}/>
+      <Route path='/request' element={<Req />}/>
     </Routes>
     
     </ThemeProvider>
