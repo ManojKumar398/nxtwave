@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <ThemeProvider theme={theme}>
-    <BrowserRouter>
+    
     <GlobalStyle />
     
     <Routes>
@@ -25,7 +25,7 @@ function App() {
       <Route path='/user' element={<User />}/>
       <Route path='/request' element={<Req />}/>
     </Routes>
-    </BrowserRouter>
+    
     </ThemeProvider>
   );
 }
