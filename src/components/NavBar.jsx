@@ -1,10 +1,9 @@
 import { Avatar, Button } from '@mui/material';
 import styled from 'styled-components';
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
-const NavBar = () => {
-    const Nav = styled.nav`
+const Nav = styled.nav`
     .navbar-list{
         display:flex;
         gap: 4.8rem ;
@@ -13,6 +12,9 @@ const NavBar = () => {
         }
     }
     `
+
+const NavBar = () => {
+    
     const navigate = useNavigate();
     return (
         <Nav>
